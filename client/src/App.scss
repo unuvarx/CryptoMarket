@@ -1,7 +1,4 @@
-// main color
-// koyu mavi #131722
-// fosforlu yeşil #5ee045
-// fosforlu sarı #FFFF00
+
 
 #root {
   font-family: "Roboto", sans-serif;
@@ -24,6 +21,8 @@ body::-webkit-scrollbar-thumb {
 .App {
   background-color: #131722;
   height: 100vh;
+  min-width: 350px;
+  overflow-x: auto;
   .loading-container {
     height: 100vh;
     display: flex;
